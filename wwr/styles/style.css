@@ -157,6 +157,12 @@ h2 {
     margin: 0;
 
 }
+
+h1 {
+    font-family: 'Macondo', cursive;
+    margin: 0;
+
+}
 header {
     background-color:rgba(20,30,13, .7);
 }
@@ -173,6 +179,22 @@ nav a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+}
+
+.fav {
+    background-color: rgb(236, 81, 107);
+   
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.fav:hover   {
+    background-color: rgb(246, 248, 123);
+    color: #524a4a;
 }
 
 .book:hover, .join:hover {
@@ -314,8 +336,12 @@ footer .social img {
 
 .left {
     grid-area: lt;
-    background-color: red;
+
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .left img{
@@ -324,11 +350,20 @@ footer .social img {
 }
 .center {
     grid-area: ctr;
-    background-color: yellow;
+
 }
 .right {
     grid-area: rt;
-    background-color: green;
+
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.right img{
+    max-width: 100%;
+    max-height: 100%;
 }
  
 
@@ -340,6 +375,10 @@ footer .social img {
       "lt lt lt ctr ctr ctr rt rt rt"
       "lt lt lt ctr ctr ctr rt rt rt"
       "lt lt lt ctr ctr ctr rt rt rt";
+}
+
+.rivers-title{
+    padding: 3rem;
 }
 
  
