@@ -39,7 +39,9 @@ body {
 }
 
 main{
+    display: grid;
     text-align: center;
+    grid-template-columns: 1fr;
 }
 
 h1{
@@ -56,7 +58,12 @@ h1{
     justify-content: space-around;
     align-items: center;
     font-family: var(--paragraph-font);
+    color: white;
+    background-color: black;
 
+}
+a {
+    color: white;
 }
 
 .footer-bar {
@@ -65,6 +72,7 @@ h1{
     flex-direction: row;
     justify-content: space-between;
     font-family: var(--paragraph-font);
+    background-color: #8D2A82;
 
 }
 
