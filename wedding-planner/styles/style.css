@@ -66,6 +66,10 @@ a {
     color: white;
 }
 
+.nav-item > a > img {
+  width: 100px;
+}
+
 .footer-bar {
     margin: 50px;
     display: flex;
@@ -94,10 +98,16 @@ a {
 }
 
 #month-couple {
-    width: 350px;
-    height: 350px;
+ 
+
     background-color: lightblue;
     align-content: center;
+}
+
+#month-couple > img {
+
+  height: 350px;
+
 }
 
 #venues {
