@@ -248,6 +248,62 @@ a {
   to {opacity: 1}
 }
 
+/* Subpage 2 */
+
+.inter-rom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+.k1-btn button {
+
+  margin: 150px;
+  align-self: center;
+
+  width: 200px;
+  height: 100px;
+  font-size: larger;
+
+  background-color: #FD9886;
+}
+
+.avoid-scam {
+  margin: 50px;
+  text-align: left;
+}
+
+.immigration {
+  margin: 50px;
+  text-align: left;
+}
+
+.contact-legal-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: space-around;
+
+}
+
+.USICS-btn{
+  margin: 50px;
+  width: 100px;
+  height: 50px;
+  background-color: #FD9886;
+}
+
+.lawyer-btn{
+  margin: 50px;
+  width: 100px;
+  height: 50px;
+  background-color: #FD9886;
+}
+
+.here {
+  color: #db0c9d;
+}
+
 
  
 
