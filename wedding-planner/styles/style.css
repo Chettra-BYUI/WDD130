@@ -42,6 +42,7 @@ main{
     display: grid;
     text-align: center;
     grid-template-columns: 1fr;
+    column-gap: 50px;
 }
 
 h1{
@@ -52,7 +53,8 @@ h1{
 }
 
 .nav-header {
-    margin: 25px;
+    margin: 10vh;
+    height: 15vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -64,14 +66,32 @@ h1{
 }
 a {
     color: white;
+    
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D90866;
 }
 
 .nav-item a img {
-  width: 100px;
+  width: 17vh;
+  
+}
+.nav-item a img:hover {
+  width: 22vh;
+  
 }
 
+
+
+
 .footer-bar {
-    margin: 50px;
+    margin: 15vh;
+    padding: 5vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -91,16 +111,17 @@ a {
 }
 
 .show-items {
-    width: 500px;
-    height: 400px;
-    background-color: slategray;
+    width:60vh;
+   
+    
     margin: 15px;
+    border: solid #FD9886 5px;
+    border-radius: 20px;
 }
 
 #month-couple {
  
-
-    background-color: lightblue;
+ 
     align-content: center;
 }
 
@@ -110,10 +131,20 @@ a {
 
 }
 
-#venues {
-    width: 350px;
-    height: 350px;
-    background-color: lightblue;
+#venue {
+
+  width: 350px;
+  align-content: center;
+
+}
+.venues {
+  align-content: center;
+}
+
+#venue {
+    width: 300px;
+ 
+ 
     align-content: center;
 }
 
@@ -126,7 +157,7 @@ a {
 .dress-grid{
 
     display: grid;
-    margin: 40px;
+    margin: 15vh;
     grid-template-columns: 1fr 1fr;
 
     justify-content: center;
@@ -136,9 +167,9 @@ a {
 
 .video-form-grid { 
     display: grid;
+    margin: 15vh;
     margin-top: 200px;
-    margin-left: 50px;
-    margin-right: 50px;
+ 
     grid-template-columns: 1fr 1fr;
 
     justify-content: center;
@@ -149,13 +180,13 @@ a {
 }
 
 .dress-item {
-    background-color: pink;
+     
     width: 600px;
     height: 500px;
 }
 
 .dress-form, .dress-video {
-    background-color: rgb(91, 183, 222);
+  
     width: 600px;
     height: 500px;
 }
@@ -270,12 +301,12 @@ a {
 }
 
 .avoid-scam {
-  margin: 50px;
+  margin: 15vh;
   text-align: left;
 }
 
 .immigration {
-  margin: 50px;
+  margin: 15vh;
   text-align: left;
 }
 
@@ -301,7 +332,11 @@ a {
 }
 
 .here {
-  color: #db0c9d;
+  color: #D90866
+}
+
+.welcome {
+  margin: 10px;
 }
 
 
